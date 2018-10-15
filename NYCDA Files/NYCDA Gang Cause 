@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My first webpage NYCDA</title>
+  </head>
+  <body>
+    <h1>Welcome to my page we are going to talk about gang violence and its root causes</h1>
+    <h2>I am learning to code</h2>
+    <h6>Hey Young World</h6>
+      <p>Lorem ipsum dolor sit amet,<span style="color: red"> consectetur</span> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <a href="https://postsecret.com/" target = "blank">The First site I really enjoyed EVER</a>
+<br>
+<br>
+<img src="https://psmag.com/.image/t_share/MTQ2NTk2MjQ0MTU1MjEzNjg3/2311b-1wllgi_zdjprq8_3vg6jywq.jpg">
+
+
+<ul type="square">
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+
+<ol type"a" style="color: red">
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ol>
+
+<strong>I am using strong to bold the text</strong>
+<br>
+<br>
+<em>I am using em to italicize the text</em>
+<br>
+<br>
+<br>
+<br>
+<!-- blah blah -->
+<table>
+  <tr>
+    <th>Name</th><th>Age</th><th>Location</th>
+  </tr>
+  <tr>
+    <td>Dinny</td><td>23</td><td>Dallas</td>
+  </tr>
+  <tr>
+    <td>Roro</td><td>18</td><td>Chicago</td>
+  </tr>
+  <tr>
+    <td>Bizzy</td><td>24</td><td>Miami</td>
+  </tr>
+  <tr>
+    <td>J-Bo</td><td>19</td><td>Atlanta</td>
+  </tr>
+</table>
+<br>
+<br>
+<div style="background-color: lightgreen">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <mark>labore</mark> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<br>
+<br>
+<iframe src="https://www.nationalgangcenter.gov/#focusareas"></iframe>
+<br>
+<br>
+<br>
+<iframe src="https://www.youtube.com/embed/3vvEcmtMYQg" frameborder="0" allow="autoplay; encrypted-media"
+<br>
+<br>
+<br>
+<br>
+  </body>
+</html>

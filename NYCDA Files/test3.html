@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title></title>
+    <style type="text/css">
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        width:  100%;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-family: "arial", sans-serif;
+  }
+
+    li a:hover {
+        background-color: #111;
+        font-family: "arial", sans-serif;
+    } *
+    /* Style the video: 100% width and height to cover the entire window */
+    /* #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top: 65px;
+        min-width: 100%;
+        min-height: 80%;
+        /* width: 1280px; */
+    } */
+
+    /* Add some content at the bottom of the video/page */
+    .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #000000;
+        width: 100%;
+        /* padding: 20px; */
+    }
+    /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .collapsible:hover {
+      background-color: #ccc;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+    /* Style the button used to pause/play the video */
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+h1{
+  text-align: left;
+  color: #fff;
+  font-family: "arial", sans-serif;
+  padding: 12px;
+}
+p{
+  text-align: left;
+  color: #fff;
+  font-family: "arial", sans-serif;
+  padding: 12px;
+  /* margin-right: 6%; */
+}
+    </style>
+    <ul>
+      <li><a href="#home" ><button class="collapsible">Home</button></a></li>
+      <li><a href="#news"><button class="collapsible">News</button></a></li>
+      <li><a href="#contact"><button class="collapsible">Contact</button></a></li>
+      <li style="float:right"><a class="active" href="#about"><button class="collapsible">About</button></a></li>
+    </ul>
+
+    <!-- The video -->
+<!-- <video autoplay muted loop id="myVideo">
+  <source src="IMG_0428.m4v" type="video/mp4">
+</video> -->
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+
+  <h1>The hopeful joy of Desmond Seymour</h1>
+  <p>Hey I am Desmond Seymour and I am an entrepreneur, educator, advocate, creative, and husband who is dedicated to the idea of maximizing my human potential. All of the work that I do is centered around helping individuals (myself included) expand, find joy, build connection, and learn as much as possible along the way.</p>
+
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
+</div>
+
+  </head>
+  <body>
+
+  </body>
+</html>

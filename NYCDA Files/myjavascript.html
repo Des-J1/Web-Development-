@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Javascript Basics</title>
+</head>
+
+<body>
+  <div onclick="change()" id="el">CHANGE ME</div>
+  <div id="result"></div>
+<script type="text/jscript" src="myjavascript.js"></script>
+  <script type="text/javascript">
+    // This is javascript
+    // alert("Whoohoo! javascript")
+    console.log("This is an output to the console")
+
+    function change() {
+      document.getElementById('el').innerHTML = "HELLO WORLD";
+    }
+  </script>
+  <p>Here is where I type in the body!</P>
+</body>
+</html>

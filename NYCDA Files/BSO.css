@@ -1,0 +1,45 @@
+body{
+  background-color: darkgreen;
+  /* background-image: url("http://www.patchmethru.com/store/ccdata/images/smallMain_14_453.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* color: green; */
+}
+h1{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+img{
+  float: left;
+  padding: 25px;
+}
+p{
+  margin-left: 5px;
+}
+
+a{
+  color: white;
+}
+p{
+  color: white;
+}
+table{
+  text-align: center;
+  padding-left: 130px;
+  color: gold;
+}
+
+#badge{
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  width: 80px;
+}

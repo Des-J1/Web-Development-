@@ -1,0 +1,23 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+
+h1 {
+  color: red;
+}
+
+img {
+  width: 80%;
+}
+
+h2 {
+  color: gold;
+  margin: 50px;
+  border: 1px solid black;
+padding: 30px; 
+
+}
