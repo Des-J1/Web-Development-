@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    Date <span id="mydate"></span>
+  </div>
+<img id="pic" src="https://i-h1.pinimg.com/564x/58/d2/bd/58d2bd7209a92b30141257c95cc0ace9.jpg"</img>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div id="box"><img src="" id="pic2"></div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$("#pic").on("click", function(){
+  $("#box").css("display", "block")
+  $("#pic2").css("width", "300px")
+  $("#pic2").attr("src","https://i-h1.pinimg.com/564x/58/d2/bd/58d2bd7209a92b30141257c95cc0ace9.jpg")
+  $("#box").css("position", "fixed")
+  $("#box").css("top", "100px")
+  $("#box").css("top", "40%")
+    $("#box").css("border", "11px solid black")
+})
+
+$("#box").on("click", function(){
+  $("#box").css("display", "none")
+})
+let d = new Date()
+$("#mydate").html(d)
+</script>
+</body>
+</html>
