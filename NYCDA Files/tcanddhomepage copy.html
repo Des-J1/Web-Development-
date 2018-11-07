@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Page</title>
+</head>
+<body>
+  <!-- <div>
+    Date <span id="mydate"></span>
+  </div> -->
+<img id="pic" src="https://www.xbrl.org/wp-content/uploads/2016/09/cfa-report-620x335.jpg"</img>
+<p>Learn about the community and the people in it!</p>
+<div id="box"><img src="" id="pic2"></div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$("#pic").on("click", function(){
+  $("#box").css("display", "block")
+  $("#pic2").css("width", "300px")
+  $("#pic2").attr("src","https://www.xbrl.org/wp-content/uploads/2016/09/cfa-report-620x335.jpg")
+  $("#box").css("position", "fixed")
+  $("#box").css("top", "100px")
+  $("#box").css("top", "40%")
+    $("#box").css("border", "11px solid black")
+})
+
+$("#box").on("click", function(){
+  $("#box").css("display", "none")
+})
+// let d = new Date()
+// $("#mydate").html(d)
+</script>
+</body>
+</html>

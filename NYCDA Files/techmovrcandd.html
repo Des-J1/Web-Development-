@@ -10,10 +10,16 @@
 
 <body>
   <div class="navbar">
-    <!-- <a href="#home">Home</a>
-      <p id="para1">Desmond Invests 25% more than the average investor</p>
-      <a href="#nwes">News</a>
-        <p id="para1">Desmond Invests 25% more than the average investor</p> -->
+    <a href="tcanddhomepage.html" target="_blank">Home</a>
+    <a href="scatme.html" target="_blank">Upcoming Projects</a>
+    <a href="https://www.bkreader.com/2018/06/08/a-doula-for-dads/" target="_blank">Recent News</a>
+    <a href="tcmcontact.html">Contact Me</a>
+    <a href="#empty"></a>
+    <a href="#empty"></a>
+    <!-- <a href="#empty"></a> -->
+    <!-- <a href="#empty"></a> -->
+    <!-- <a href="#empty"></a> -->
+    <right>
     <div class="dropdown">
       <button class="dropbtn">Take a look at all that Techmovr has to offer!
         <i class="fa fa-caret-down"></i>
@@ -25,34 +31,44 @@
         <div class="row">
           <div class="column">
             <h3>Doula For Dad</h3>
-            <a href="toxmasc.pdf">Toxic Masculinity Training Results</a>
-            <a href="dfdtxm.pdf">Identifying Toxic Masculinity</a>
-            <a href="#">Link 3</a>
+            <a href="toxmasc.pdf" target="_blank">Toxic Masculinity Training Results</a>
+            <a href="dfdtxm.pdf" target="_blank">Identifying Toxic Masculinity</a>
+            <a href="rapmediation.pdf" target="_blank">Resilience Advocacy Project Mediation Inforgraphic</a>
           </div>
           <div class="column">
             <h3>Education</h3>
-            <a href="roads.pdf">ROADS Pathway to Graduation</a>
-            <a href="regpath.pdf">ROADS Engagement Pathways</a>
-            <a href="dfdaware.pdf">Doula For Dad Young Mens Sexual Health and Awareness</a>
+            <a href="roads.pdf" target="_blank">ROADS Pathway to Graduation</a>
+            <a href="regpath.pdf" target="_blank">ROADS Engagement Pathways</a>
+            <a href="dfdaware.pdf" target="_blank">Doula For Dad Young Mens Sexual Health and Awareness</a>
           </div>
           <div class="column">
             <h3>Social Awareness</h3>
-            <a href="policeactions.png">Fatal Police Actions</a>
-            <a href="alvsac.png">Allies vs Accomplices</a>
-            <a><video autoplay muted loop id="myVideo">
-              <source src="sctopp2.mov" type="video/mp4">School to Prison Pipeline
-            </video>School to Prison Pipeline</a>
+            <a href="policeactions.png" target="_blank">Fatal Police Actions</a>
+            <a href="alvsac.png" target="_blank">Allies vs Accomplices</a>
+            <a href="yogadoula.png" target="_blank">Yoga Doula</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</right>
   <center>
-  <img src="scholaratmecopy.jpg"></img>
+  <img src="tcmweblogo.png"></img>
 </center>
-<script>
-// $("#video").on("click", function(){
-// $("#myVideo").slideDown(2100)
+
+<script type="text/javascript">
+$("#pic").on("click", function(){
+  $("#box").css("display", "block")
+  $("#pic2").css("width", "300px")
+  $("#pic2").attr("src","https://i-h1.pinimg.com/564x/58/d2/bd/58d2bd7209a92b30141257c95cc0ace9.jpg")
+  $("#box").css("position", "fixed")
+  $("#box").css("top", "100px")
+  $("#box").css("top", "40%")
+    $("#box").css("border", "11px solid black")
+})
+
+$("#box").on("click", function(){
+  $("#box").css("display", "none")
 })
 </script>
 </body>

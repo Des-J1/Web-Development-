@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Page</title>
+  <style>
+  img{
+  width: 100%;
+  }
+  .#pic2{
+    width: 800px;;
+  }
+</style>
+</head>
+
+<body>
+  <!-- <div>
+    Date <span id="mydate"></span>
+  </div> -->
+<img id="pic" src="http://www.theoklahomaeagle.net/home/wp-content/uploads/2017/02/davidmcghee2jpg-6e8bc2eefaa75be6.jpg"</img>
+<div id="box"><img src="" id="pic2"></div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+$("#pic").on("click", function(){
+  $("#box").css("display", "block")
+  $("#pic2").css("width", "600px")
+  $("#pic2").attr("src","techmovrmission.jpeg.png")
+  $("#box").css("position", "fixed")
+  $("#box").css("top", "100px")
+  $("#box").css("top", "40%")
+    $("#box").css("border", "11px solid black")
+})
+
+$("#box").on("click", function(){
+  $("#box").css("display", "none")
+})
+// let d = new Date()
+// $("#mydate").html(d)
+</script>
+</body>
+</html>
